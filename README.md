@@ -1,62 +1,106 @@
-# AHSAN-DDOS V1.0 🚀
+![Banner](./banner.png)
 
-![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)
+<div align="center">
 
-**AHSAN-DDOS** is an ultra-high performance, multi-threaded load testing and DDoS simulation tool. Engineered for security professionals and network stress-testing, it utilizes `pycurl` (libcurl) for maximum Requests Per Second (RPS) and features advanced bypass techniques.
 
----
+<br><br>
 
-## ⚡ Key Features
+<pre>
+ █████╗ ██╗  ██╗███████╗ █████╗ ███╗   ██╗    ███████╗ ██████╗ ██╗     
+██╔══██╗██║  ██║██╔════╝██╔══██╗████╗  ██║    ██╔════╝██╔═══██╗██║     
+███████║███████║███████╗███████║██╔██╗ ██║    ███████╗██║   ██║██║     
+██╔══██║██╔══██║╚════██║██╔══██║██║╚██╗██║    ╚════██║██║   ██║██║     
+██║  ██║██║  ██║███████║██║  ██║██║ ╚████║    ███████║╚██████╔╝███████╗
+╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝    ╚══════╝ ╚═════╝ ╚══════╝
+</pre>
 
-- **Extreme Performance**: Uses `pycurl` (libcurl) C-bindings for near-native network throughput.
-- **Advanced Header Rotation**: Dynamically generates unique `User-Agent`, `X-Forwarded-For`, `X-Real-IP`, and `Via` headers for every request.
-- **Multi-Vector Attacks**: Supports both **GET floods** and **POST payload floods** to exhaust both bandwidth and server-side processing.
-- **Deep Cache-Busting**: Multi-layer randomized query parameters bypass CDNs and server-side caching (Varnish, Nginx, Cloudflare).
-- **Hacker-Dashboard UI**: Modern, real-time monitoring dashboard with live RPS, success rates, and mission progress.
-- **Automatic Dependencies**: Self-healing engine that automatically detects and installs missing Python packages.
 
----
 
-## 🛠️ Installation & Setup
+### [ AH4 TC | AHSAN-DDOS v1.0 ]
 
-### 1. Requirements
-- **Python 3.8+**
-- **pip** (Python package manager)
-- **libcurl** (Optional, for `pycurl` performance boost)
+**"Our democracy has been hacked. Our privacy has been compromised. The system is broken. We are here to show you how."**
 
-### 2. Quick Start
-Clone the repository and run the script:
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-red?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/Status-Operational-red?style=for-the-badge)](https://github.com/ahsan13411/ahsan-ddos)
+[![Team](https://img.shields.io/badge/Team-AH4%20Team-red?style=for-the-badge)](https://github.com/ahsan13411)
 
-```bash
-git clone https://github.com/ahsan13411/ahsan-ddos.git
-cd ahsan-ddos
-python ahsan-ddos.py
-```
+</div>
 
 ---
 
-## 🚀 Usage Guide
-
-1. **Launch**: Start the tool using `python ahsan-ddos.py`.
-2. **Configure Target**: Enter the full URL (e.g., `https://example.com`).
-3. **Set Intensity**:
-   - **Target RPS**: Recommended `10000+` for stress testing.
-   - **Duration**: Set the mission length in seconds.
-   - **CPU Threads**: Auto-detected, but can be manually tuned for maximum load.
-4. **Monitor**: Watch the real-time Mission Status Dashboard for live performance metrics.
+## 🎭 
+> "Control is an illusion. We live in a world where everything is connected, yet everything is vulnerable. We don't just break systems; we reveal the cracks that were already there. Information wants to be free, and we are its messengers. We are the architects of chaos in a world that demands order. We are the ghost in the machine."
 
 ---
 
-## ⚠️ Disclaimer
-
-**Educational Purposes Only.**
-This tool is intended for legal stress testing and security research on networks you own or have explicit permission to test. Unauthorized use of this tool against third-party servers is illegal and strictly prohibited. The developer (AHSAN) assumes no liability for misuse or damage caused by this tool.
+## 👤 Credits & Intelligence
+- **Lead Operator:** [AHSAN](https://github.com/ahsan13411)
+- **Central Intelligence:** [AH4 Team](https://github.com/ahsan13411/ahsan-ddos)
+- **Sector:** **Network Infiltration & Protocol Research**
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🚀 Installation & Usage Guide
+
+### 💻 Windows
+1. Install [Python 3.8+](https://www.python.org/downloads/windows/).
+2. Open PowerShell or CMD.
+3. Clone the repository:
+   ```bash
+   git clone https://github.com/ahsan13411/ahsan-ddos.git
+   cd ahsan-ddos
+   ```
+4. Run the tool:
+   ```bash
+   python ahsan-ddos.py
+   ```
+
+### 🐧 Linux (Ubuntu/Debian/Kali)
+1. Update system and install dependencies:
+   ```bash
+   sudo apt update && sudo apt upgrade -y
+   sudo apt install python3 python3-pip libcurl4-openssl-dev libssl-dev -y
+   ```
+2. Clone and enter directory:
+   ```bash
+   git clone https://github.com/ahsan13411/ahsan-ddos.git
+   cd ahsan-ddos
+   ```
+3. Install required Python packages:
+   ```bash
+   pip3 install pycurl requests
+   ```
+4. Execute:
+   ```bash
+   python3 ahsan-ddos.py
+   ```
+
+### 📱 Android (Termux)
+1. Install Termux and update:
+   ```bash
+   pkg update && pkg upgrade -y
+   ```
+2. Install necessary packages:
+   ```bash
+   pkg install python clang make libcurl binutils -y
+   ```
+3. Clone the repo:
+   ```bash
+   git clone https://github.com/ahsan13411/ahsan-ddos.git
+   cd ahsan-ddos
+   ```
+4. Install dependencies:
+   ```bash
+   pip install pycurl requests
+   ```
+5. Run:
+   ```bash
+   python ahsan-ddos.py
+   ```
+
+---
+
+## ⚖️ Legal Disclaimer
+This tool is for **Educational Purposes Only**. AH4 Team and AHSAN are not responsible for any misuse or damage caused by this program. Use it only on your own infrastructure or with explicit legal permission.
 
 **Created by AHSAN. Our democracy has been hacked.**
