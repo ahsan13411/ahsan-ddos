@@ -30,7 +30,7 @@
 Clone the repository and run the script:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ahsan-ddos.git
+git clone https://github.com/ahsan13411/ahsan-ddos.git
 cd ahsan-ddos
 python ahsan-ddos.py
 ```

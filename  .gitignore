@@ -1,0 +1,6 @@
+# Ignore local reports and stats
+ahsan_report.txt
+__pycache__/
+*.pyc
+.vscode/
+.idea/
