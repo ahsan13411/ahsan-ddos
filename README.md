@@ -100,7 +100,6 @@
 
 ---
 
-## ⚖️ Legal Disclaimer
-This tool is for **Educational Purposes Only**. AH4 Team and AHSAN are not responsible for any misuse or damage caused by this program. Use it only on your own infrastructure or with explicit legal permission.
+## FUCK SOCIETY
 
 **Created by AHSAN. Our democracy has been hacked.**
